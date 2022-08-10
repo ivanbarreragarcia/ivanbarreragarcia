@@ -1,0 +1,47 @@
+// @forward "../../../sass/common";
+// @use "../../../sass/common";
+
+.container {
+    padding-top: 80px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    &__form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        &-url{
+            width: 100%;
+            padding: .5rem 2rem;
+            text-align: center;
+            border: none;
+            border-radius: 1rem;
+            color: crimson;
+            background-color: #ddd;
+            &:focus-visible{
+                outline: none;
+            }
+        }
+        &-submit{
+            padding: .75rem 2rem;
+            text-align: center;
+            border: none;
+            border-radius: 1rem;
+            color: #fff;
+            background-color: crimson;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,32 @@
+.link-hover {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        left: 49%;
+        width: 0%;
+        // height: 1px;
+        border-bottom: 3px solid crimson;
+        transition: width 0.5s;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        width: 0%;
+        // height: 1px;
+        border-bottom: 3px solid crimson;
+        transition: width 0.3s;
+        transform: translateX(-100%);
+    }
+    &:hover::before {
+        width: 25%;
+    }
+    &:hover::after {
+        width: 25%;
+    }
+}
+
+

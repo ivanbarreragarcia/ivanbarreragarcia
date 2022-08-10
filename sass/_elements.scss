@@ -1,0 +1,33 @@
+@use "vars";
+
+// Base Button
+
+.btn {
+    background-color: vars.$main-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    box-shadow: inset -1px -1px 10px 0 #000000aa, inset 1px 1px 10px 0 #ffffffaa;
+    cursor: pointer;
+    &:active {
+        transform: translateX(1px) translateY(1px);
+        box-shadow: inset -1px -1px 10px 0 #ffffffaa,
+            inset 1px 1px 10px 0 #000000aa;
+    }
+}
+
+// Big Button
+.btn-prim {
+    padding: 0.5rem 1rem;
+    // border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+// Small Button
+.btn-sec {
+    padding: 0.25rem 0.5rem;
+    // border-radius: 0.25rem;
+    font-size: 0.6rem;
+}

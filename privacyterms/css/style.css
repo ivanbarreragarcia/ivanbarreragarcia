@@ -1,0 +1,65 @@
+.privacy {
+  width: 90%;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.privacy h2 {
+  margin: 2rem 0;
+  text-align: center;
+  color: crimson;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.privacy h3 {
+  margin: 2rem 0;
+  color: crimson;
+  font-size: 1.5rem;
+}
+.privacy h4 {
+  margin: 1.5rem 0;
+  color: crimson;
+  font-size: 1rem;
+}
+.privacy p, .privacy li {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+.privacy li {
+  padding-left: 1.5rem;
+  list-style-position: inside;
+}
+
+#privacy, #confidential, #cookies {
+  padding-top: 60px;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+#map .map__list {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#map .map__list-item {
+  display: block;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  background-color: crimson;
+}
+#map .map__list-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

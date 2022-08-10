@@ -1,0 +1,152 @@
+@use "vars";
+
+.main__portfolio {
+    margin: 0 auto 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    &__title {
+        width: 80%;
+        align-self: center;
+        display: block;
+        position: relative;
+        margin: 0 0 20px 20px;
+        padding-top: 60px;
+        font-size: 3rem;
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 80px;
+            height: 2px;
+            background-color: vars.$main-color;
+        }
+    }
+
+
+    &__projects {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        gap: 2rem;
+        grid-auto-rows: 20rem;
+        grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+        &-project {
+            opacity: 0;
+            transform: scale(.8);
+            border-radius: 20px;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            text-align: start;
+            padding: 10px;
+            background-position: center;
+            background-size: cover;
+            box-shadow: inset 0 0 30px 0 #ccc;
+            overflow: hidden;
+            &-title {
+                display: inline-block;
+                width: max-content;
+                border-radius: 8px;
+                padding: 2px 5px;
+                position: relative;
+                bottom: 0;
+                z-index: 10;
+                opacity: 1;
+                color: inherit;
+            }
+            &-link {
+                border-radius: 8px;
+                padding: 2px 5px;
+                width: max-content;
+                padding: 2px;
+                font-size: 1rem;
+                position: absolute;
+                z-index: 10;
+                text-decoration: none;
+                color: vars.$main-color;
+                opacity: 0;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 15%;
+                bottom: 0;
+                left: 0;
+                opacity: .8;
+                background-color: #fff;
+                z-index: 1;
+                filter: blur(3px);
+            }
+            &:hover {
+                .main__portfolio__projects-project {
+                    &-title {
+                        transition: opacity 0.3s ease;
+                        opacity: 0;
+                    }
+                    &-link {
+                        transition-delay: 0.2s;
+                        transition: opacity 0.3s ease;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 0px;
+        &__title {
+            text-align: center;
+            margin: 0 0 40px;
+            width: 100%;
+        }
+        &__projects {
+            &-project {
+                &-link {
+                    position: relative;
+                    opacity: 1;
+                }
+                &:hover {
+                    .main__portfolio__projects-project {
+                        &-title {
+                            opacity: 1;
+                        }
+                    }
+                }
+                &::after{
+                    height: 20%;
+                }
+            }
+        }
+    }
+}
+
+.project-1 {
+    background-image: url(../img/project1.svg);
+}
+.project-2 {
+    background-image: url(../img/project2.svg);
+}
+.project-3 {
+    background-image: url(../img/project3.svg);
+}
+.project-4 {
+    background-image: url(../img/project4.svg);
+}
+.project-5 {
+    background-image: url(../img/project5.svg);
+}
+.project-6 {
+    background-image: url(../img/project2.svg);
+}
+
+.proyectVisible {
+    transition: all .5s ease;
+    opacity: 1;
+    transform: scale(1);
+}
