@@ -5,6 +5,13 @@ const $proyects = document.querySelectorAll(
     ".main__portfolio__projects-project"
 );
 
+// Scroll
+const $scrollBtn = document.getElementById("scrollBtn")
+// Portfolio (Scroll target)
+const $portfolio = document.getElementById("portfolio")
+
+//  -----------------
+
 // Proyects animations
 
 // Proyects Animation when its appear on screen
@@ -25,3 +32,14 @@ const observer = new IntersectionObserver(loadProyAnim, {
 $proyects.forEach((proyect) => {
     observer.observe(proyect);
 });
+
+//  -----------------
+
+// Scroll
+
+$scrollBtn.addEventListener("click", ()=>{
+    $portfolio.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    })
+})

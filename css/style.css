@@ -309,9 +309,6 @@ body {
   transform: rotate(-45deg);
   cursor: pointer;
 }
-.main__hero__scroll:hover {
-  animation: continue 1s cubic-bezier(0, 0.3, 0.8, 1) infinite;
-}
 @keyframes continue {
   0%, 100% {
     bottom: 0px;

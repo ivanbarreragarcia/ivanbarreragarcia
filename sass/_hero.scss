@@ -47,9 +47,9 @@
         border-style: none none solid solid;
         transform: rotate(-45deg);
         cursor: pointer;
-        &:hover {
-            animation: continue 1s cubic-bezier(0, 0.3, 0.8, 1) infinite;
-        }
+        // &:hover {
+        //     animation: continue 1s cubic-bezier(0, 0.3, 0.8, 1) infinite;
+        // }
     }
 
     @keyframes continue {

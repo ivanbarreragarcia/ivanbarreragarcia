@@ -88,7 +88,8 @@
                     <img src="img/hero.svg" alt="" class="main__hero__content-image-img">
                 </div>
             </div>
-            <a href="#portfolio" class="main__hero__scroll"></a>
+            <!-- <a href="#portfolio" class="main__hero__scroll"></a> -->
+            <div id="scrollBtn" class="main__hero__scroll"></div>
         </section>
 
         <section id="portfolio" class="main__portfolio">
