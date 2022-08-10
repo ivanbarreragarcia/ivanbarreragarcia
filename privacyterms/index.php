@@ -766,10 +766,10 @@
     <!-- Footer Container -->
     <footer class="footer">
         <div class="footer__social">
-            <ul class="footer__social-list">
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/"><i class="fa-brands fa-instagram"></i></a></li>
+        <ul class="footer__social-list">
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
         <div class="footer__copyright">
@@ -780,11 +780,6 @@
                 Privacy & Terms</a>
         </div>
     </footer>
-
-    <!-- to-top Button -->
-    <!-- <a href="#" id="toTop" class="toTop_btn">
-        <p class="hidden">go to top</p>
-    </a> -->
 
     <!-- New to-Top Button -->
     <div class="toTop_btn" id="toTop"></div>
