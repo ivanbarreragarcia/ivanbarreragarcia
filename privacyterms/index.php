@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Hi! -->
     <meta name="author" content="Ivan Barrera">
-    <meta name="description" content="Simply QRCode Generator">
+    <meta name="description" content="Politicas de privacidad">
     <!-- Keywords -->
-    <meta name="keywords" content="portfolio aboutme ivan barrera junior frontend developer curriculum policy terms cookies">
+    <meta name="keywords" content="desarrollador, web, junior, web, developer, frontend, php, html5, html, css3, css, sass, javascript, es6, autodidacta, curriculum, portfolio, projects, proyectos, trabajo, estudio, contacta, ivan, barrera, ibarreradev, legal, terms, cookies, privacidad">
     <!-- Google verification -->
     <meta name="google-site-verification" content="-9r0TQjc2nLnG-NkYMGxM_q08infjFZ-QHm6CrCsyAk" />
     <!-- Favicon -->
@@ -22,7 +22,7 @@
     <script defer src="../common.js?ver=<?php echo date('dmYHis') ?>"></script>
     <script defer src="https://kit.fontawesome.com/fac55ee234.js?ver=<?php echo date('dmYHis') ?>" crossorigin="anonymous"></script>
     <!-- Title -->
-    <title>Privacy and Terms</title>
+    <title>Legal - Iván Barrera</title>
 </head>
 
 <body>

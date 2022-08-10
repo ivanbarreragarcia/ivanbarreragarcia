@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Hi! -->
     <meta name="author" content="Ivan Barrera">
-    <meta name="description" content="Simply QRCode Generator">
+    <meta name="description" content="Aqui podras generar un codigo QR a partir de una URL">
     <!-- Keywords -->
-    <meta name="keywords" content="portfolio aboutme ivan barrera junior frontend developer curriculum qr qrcode qrgenerator">
+    <meta name="keywords" content="desarrollador, web, junior, web, developer, frontend, php, html5, html, css3, css, sass, javascript, es6, autodidacta, curriculum, portfolio, projects, proyectos, trabajo, estudio, contacta, ivan, barrera, ibarreradev, qr generator, generador qr">
     <!-- Google verification -->
     <meta name="google-site-verification" content="-9r0TQjc2nLnG-NkYMGxM_q08infjFZ-QHm6CrCsyAk" />
     <!-- Favicon -->
@@ -24,7 +24,7 @@
     <script defer src="main.js?ver=<?php echo date('dmYHis') ?>"></script>
     <script defer src="https://kit.fontawesome.com/fac55ee234.js?ver=<?php echo date('dmYHis') ?>" crossorigin="anonymous"></script>
     <!-- Title -->
-    <title>QRCode Generator</title>
+    <title>Generador QR - Iván Barrera</title>
 </head>
 
 <body>
