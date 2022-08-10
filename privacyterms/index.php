@@ -9,20 +9,18 @@
     <meta name="author" content="Ivan Barrera">
     <meta name="description" content="Simply QRCode Generator">
     <!-- Keywords -->
-    <meta name="keywords"
-        content="portfolio aboutme ivan barrera junior frontend developer curriculum policy terms cookies">
+    <meta name="keywords" content="portfolio aboutme ivan barrera junior frontend developer curriculum policy terms cookies">
     <!-- Google verification -->
     <meta name="google-site-verification" content="-9r0TQjc2nLnG-NkYMGxM_q08infjFZ-QHm6CrCsyAk" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
     <!-- Styles -->
-    <link rel="stylesheet" href="../css/normalize.css?ver=<?php echo date('dmYHis')?>">
-    <link rel="stylesheet" href="../css/style.css?ver=<?php echo date('dmYHis')?>">
-    <link rel="stylesheet" href="css/style.css?ver=<?php echo date('dmYHis')?>" />
+    <link rel="stylesheet" href="../css/normalize.css?ver=<?php echo date('dmYHis') ?>">
+    <link rel="stylesheet" href="../css/style.css?ver=<?php echo date('dmYHis') ?>">
+    <link rel="stylesheet" href="css/style.css?ver=<?php echo date('dmYHis') ?>" />
     <!-- Scripts -->
-    <script defer src="../common.js?ver=<?php echo date('dmYHis')?>"></script>
-    <script defer src="https://kit.fontawesome.com/fac55ee234.js?ver=<?php echo date('dmYHis')?>"
-        crossorigin="anonymous"></script>
+    <script defer src="../common.js?ver=<?php echo date('dmYHis') ?>"></script>
+    <script defer src="https://kit.fontawesome.com/fac55ee234.js?ver=<?php echo date('dmYHis') ?>" crossorigin="anonymous"></script>
     <!-- Title -->
     <title>Privacy and Terms</title>
 </head>
@@ -48,15 +46,11 @@
             <!-- Burger Menu -->
             <div class="navbar__hamburger__menu">
                 <ul class="navbar__hamburger__menu-list">
-                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php"
-                            class="navbar__hamburger__menu-list-item-link burguer-link1">home</a>
+                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php" class="navbar__hamburger__menu-list-item-link burguer-link1">home</a>
                     </li>
-                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php#portfolio"
-                            class="navbar__hamburger__menu-list-item-link burguer-link2">portfolio</a></li>
-                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php#about"
-                            class="navbar__hamburger__menu-list-item-link burguer-link3">about me</a></li>
-                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php#contact"
-                            class="navbar__hamburger__menu-list-item-link burguer-link4">contact</a>
+                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php#portfolio" class="navbar__hamburger__menu-list-item-link burguer-link2">portfolio</a></li>
+                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php#about" class="navbar__hamburger__menu-list-item-link burguer-link3">about me</a></li>
+                    <li class="navbar__hamburger__menu-list-item linkMenu"><a href="/index.php#contact" class="navbar__hamburger__menu-list-item-link burguer-link4">contact</a>
                     </li>
                 </ul>
             </div>
@@ -766,10 +760,10 @@
     <!-- Footer Container -->
     <footer class="footer">
         <div class="footer__social">
-        <ul class="footer__social-list">
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
+            <ul class="footer__social-list">
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
         <div class="footer__copyright">

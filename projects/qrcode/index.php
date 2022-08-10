@@ -97,9 +97,9 @@
     <footer class="footer">
         <div class="footer__social">
             <ul class="footer__social-list">
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer__social-list-item"><a href="https://www.instagram.com/ibarreradev/" rel="nofollow" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
         <div class="footer__copyright">
