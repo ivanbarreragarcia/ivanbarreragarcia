@@ -80,7 +80,7 @@
         <section class="main__hero">
             <div class="main__hero__content">
                 <div class="main__hero__content-texts">
-                    <h3 class="main__hero__content-texts-subtitle">Hi, my name is Iván and I'm a</h3>
+                    <h3 class="main__hero__content-texts-subtitle">Hola! Me llamo Iván y soy</h3>
                     <h1 class="main__hero__content-texts-title">Front-End Web Developer</h1>
                 </div>
 
