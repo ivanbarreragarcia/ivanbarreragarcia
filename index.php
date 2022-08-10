@@ -157,11 +157,6 @@
         </div>
     </footer>
 
-    <!-- to-top Button -->
-    <!-- <a href="#" id="toTop" class="toTop_btn">
-        <p class="hidden">go to top</p>
-    </a> -->
-
     <!-- New to-Top Button -->
     <div class="toTop_btn" id="toTop"></div>
 
