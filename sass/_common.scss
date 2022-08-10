@@ -66,10 +66,8 @@ body {
     border: 5px solid vars.$main-color;
     border-style: solid none none solid;
     transform: rotate(45deg);
-}
-
-.hidden{
-    display: none;
+    transition: all .5s ease;
+    cursor: pointer;
 }
 
 .toTopInvisible {

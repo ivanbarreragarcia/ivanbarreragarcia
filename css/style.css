@@ -54,10 +54,8 @@ body {
   border: 5px solid #dc143c;
   border-style: solid none none solid;
   transform: rotate(45deg);
-}
-
-.hidden {
-  display: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .toTopInvisible {
@@ -309,6 +307,7 @@ body {
   border: 5px solid #dc143c;
   border-style: none none solid solid;
   transform: rotate(-45deg);
+  cursor: pointer;
 }
 .main__hero__scroll:hover {
   animation: continue 1s cubic-bezier(0, 0.3, 0.8, 1) infinite;

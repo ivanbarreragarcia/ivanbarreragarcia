@@ -26,6 +26,14 @@ $hambMenuLink.forEach((item) => {
     });
 });
 
+// Go to Top when click
+$toTop.addEventListener("click", ()=>{
+    scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+})
+
 // Toggle visibility of toTop button when scroll
 document.addEventListener("scroll", () => {
     if (window.scrollY >= 400) {
