@@ -88,7 +88,7 @@
         <div class="container">
             <div class="container__header">
                 <h1 class="container__header-title">QR-Code Generator</h1>
-                <h3 class="container__header-description">You only have to write the URL you want to convert to QR</h3>
+                <h3 class="container__header-description">You only have to write the URL you want to convert to QR and press the button!</h3>
             </div>
             <form autocomplete="off" action="" class="container__form" id="container__form">
                 <input type="url" name="url" id="url" class="container__form-url" placeholder="ENTER URL">
